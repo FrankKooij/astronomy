@@ -1,4 +1,4 @@
-;; astronomy.el   -*-Emacs-Lisp-*-
+;;; astronomy.el --- compute astronomical, nautical and civil twilight
 
 ;; Copyright (C) 2001 Bill White 
 
@@ -27,7 +27,7 @@
 ;;
 ;;     <url:http://members.wri.com/billw/astronomy>
 
-;; Commentary:
+;;; Commentary:
 
 ;; OVERVIEW ==========================================================
 
@@ -108,7 +108,7 @@
 
 ;; 0.1: initial release
 
-;; Code:
+;;; Code:
 
 (require 'calendar)
 (require 'solar)
